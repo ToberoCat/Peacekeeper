@@ -1,0 +1,24 @@
+BotToken: "OTEwNTQ4ODMxMzgzNDc4MzEz.YZUcrg.pVaicamT8YAhMJXiy0h-Iv-s_r4" # Bot token
+
+updateTimeout: 60000 # milliseconds
+deleteLinks: true
+bypass: "799164912705208362"
+
+forbidden:
+  checkLeet: true # Replace numbers in the text with the associated
+  checkProbability: true # Checks the similarity between the message and a forbidden word
+  deletePercenatge: 0.8 # Delete the message when the message is %percenatge% similar to a word
+  reportPercenatge: 0.5 # Reports the message in a channel dedicated to reports for a human to determine if the word is accepted or should get rejected
+
+channels:
+  reportedMessages: "956580125477064755"
+  statusChannel: "946769570771902464"
+  joinChannel: "956580125477064755"
+
+autoreply:
+  endswith: "?"
+  toLowercase: true
+  contains:
+    - "release"
+    - "mod"
+  reply: "Please check <#946769570771902464>"

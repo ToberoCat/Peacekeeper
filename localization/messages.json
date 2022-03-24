@@ -1,0 +1,50 @@
+{
+  "forbidden-word-user": {
+    "title": "Forbidden word",
+    "type": "rich",
+    "description": "{user} dont use those kinds of words here",
+    "url": null,
+    "color": "#7F7FFF",
+    "fields": [],
+    "thumbnail": null,
+    "image": null,
+    "author": null,
+    "footer": null
+  },
+  "forbidden-word-report": {
+    "title": "Someone maybe used a forbidden word",
+    "type": "rich",
+    "description": "{user} used {og_word}. Its similar to {similar} with {percentage}%. Message: {message}",
+    "url": null,
+    "color": "#7F7FFF",
+    "fields": [],
+    "thumbnail": null,
+    "image": null,
+    "author": null,
+    "footer": null
+  },
+  "update": {
+    "title": "Pls update",
+    "type": "rich",
+    "description": "Hey Guys, please update me on your current task status",
+    "url": null,
+    "color": "#7F7FFF",
+    "fields": [],
+    "thumbnail": null,
+    "image": null,
+    "author": null,
+    "footer": null
+  },
+  "join": {
+    "title": "New member",
+    "type": "rich",
+    "description": "Hey, {member}. Welcome to {guild}",
+    "url": null,
+    "color": "#7F7FFF",
+    "fields": [],
+    "thumbnail": null,
+    "image": null,
+    "author": null,
+    "footer": null
+  }
+}
