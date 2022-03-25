@@ -1,3 +1,4 @@
-winget install OpenJS.NodeJS -v 17.4.0
-
-npm install
+npm i discord.js
+npm i glob
+npm i js-yaml
+npm i string-similarity
